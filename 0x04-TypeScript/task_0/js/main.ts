@@ -1,4 +1,4 @@
-/** Renders table based on a list of objects */
+/** interface that accepts elements using vanilla JavaScript */
 
 interface Student {
   firstName: string;
@@ -16,8 +16,8 @@ const studentA: Student = {
 
 const studentB: Student = {
   firstName: 'Lilian',
-  lastName: 'OMwandho',
-  age: 26,
+  lastName: 'Omwandho',
+  age: 31,
   location: 'Nairobi',
 }
 

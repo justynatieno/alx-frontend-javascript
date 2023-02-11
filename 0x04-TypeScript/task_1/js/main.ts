@@ -15,29 +15,29 @@ interface Directors extends Teacher {
 
 // Creating a teacher and a director
 const teacher3: Teacher = {
-  firstName: 'Hilton',
-  fullTimeEmployee: false,
-  lastName: 'Oguda',
+  firstName: 'Justine',
+  fullTimeEmployee: true,
+  lastName: 'Omwandho',
   location: 'Kisumu',
-  contract: false,
+  contract: true,
 };
 console.log(teacher3);
 
 const director1: Directors = {
-  firstName: 'Hilton',
-  lastName: 'Oguda',
-  location: 'London',
-  fullTimeEmployee: true,
+  firstName: 'Lilian',
+  lastName: 'Akumu',
+  location: 'Nairobi',
+  fullTimeEmployee: false,
   numberOfReports: 21,
 };
 console.log(director1);
 
-// returns a Teacher's name in this format: K. Owino
+// returns a Teacher's name in this format: J. Omwandho
 function printTeacher(firstName: string, lastName: string): string {
   return `${firstName[0]}. ${lastName}`;
 }
 
-console.log(printTeacher('Felix', 'Allan'));
+console.log(printTeacher('John', 'Christen'));
 
 // class description interface
 interface classInterface {
