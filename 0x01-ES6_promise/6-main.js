@@ -1,3 +1,6 @@
-import handleProfileSignup from './6-final-user';
+import SkyHighBuilding from './6-sky_high.js';
 
-console.log(handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg"));
+const building = new SkyHighBuilding(140, 60);
+console.log(building.sqft);
+console.log(building.floors);
+console.log(building.evacuationWarningMessage());

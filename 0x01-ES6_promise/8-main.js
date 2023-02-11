@@ -1,4 +1,5 @@
-import divideFunction from './8-try';
+import HolbertonClass from "./8-hbtn_class.js";
 
-console.log(divideFunction(10, 2));
-console.log(divideFunction(10, 0));
+const hc = new HolbertonClass(12, "Mezzanine")
+console.log(Number(hc));
+console.log(String(hc));

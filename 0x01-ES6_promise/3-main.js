@@ -1,3 +1,4 @@
-import handleProfileSignup from "./3-all";
+import Currency from "./3-currency.js";
 
-handleProfileSignup();
+const dollar = new Currency('$', 'Dollars');
+console.log(dollar.displayFullCurrency());
